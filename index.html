@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>València — La Ciudad de las Artes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;0,700;1,300;1,600&family=DM+Sans:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Outfit:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════
+       NAVIGATION
+  ══════════════════════════════════ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+
+      <a href="#hero" class="nav-logo">
+        <div class="logo-mark">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none"/></svg>
+        </div>
+        <span class="logo-wordmark">VALÈNCIA</span>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a class="nav-link" href="#heritage">Patrimonio</a>
+        <a class="nav-link" href="#modernity">Modernidad</a>
+        <a class="nav-link" href="#gastronomy">Gastronomía</a>
+        <a class="nav-link" href="#lifestyle">Estilo de vida</a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a class="mobile-link" href="#heritage">Patrimonio</a>
+      <a class="mobile-link" href="#modernity">Modernidad</a>
+      <a class="mobile-link" href="#gastronomy">Gastronomía</a>
+      <a class="mobile-link" href="#lifestyle">Estilo de vida</a>
+    </div>
+  </nav>
+
+
+  <!-- ══════════════════════════════════
+       HERO
+  ══════════════════════════════════ -->
+  <section id="hero" class="hero">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1534430480872-3498386e7856?auto=format&fit=crop&q=80&w=2200" alt="Horizonte de Valencia" />
+    </div>
+    <div class="hero-content">
+      <span class="hero-badge">300 Días de Sol al Año</span>
+      <h1 class="hero-heading">
+        La Ciutat de <br><em class="hero-accent">les Arts</em>
+      </h1>
+      <p class="hero-sub">Una joya mediterránea donde el pasado romano se funde con un futuro futurista entre el aroma del azahar.</p>
+      <div class="hero-actions">
+        <a href="#heritage" class="hero-btn-primary">Explorar la historia</a>
+        <a href="#modernity" class="hero-btn-ghost">Ver el recorrido</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="hero-mouse">
+        <div class="hero-mouse-dot"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════
+       01 — HERITAGE
+       Layout: Dark stone stage, alternating
+       image + text cards with large ghost number
+  ══════════════════════════════════ -->
+  <section id="heritage" class="section sec-heritage">
+
+    <div class="heritage-intro">
+      <div class="sec-label">
+        <span class="sec-number">01</span>
+        <span class="sec-tag">Patrimonio</span>
+      </div>
+      <h2 class="heritage-heading">Raíces Antiguas<br><em>&amp; Oro Gótico</em></h2>
+      <p class="heritage-sub">Dos mil años de capas — puertas moriscas, torres góticas, fachadas barrocas — apiladas unas sobre otras como sedimento en piedra.</p>
+    </div>
+
+    <div class="heritage-cards">
+
+      <article class="hc reveal">
+        <div class="hc-img">
+          <img src="Batiment-de-la-Lonja-de-la-Seda-a-Valence.avif" alt="La Lonja" />
+          <div class="hc-img-label">La Lonja · Siglo XV</div>
+        </div>
+        <div class="hc-body">
+          <p class="hc-eyebrow">Patrimonio Mundial de la UNESCO</p>
+          <h3 class="hc-title">La Lonja de la Seda</h3>
+          <p class="hc-desc">Sus columnas en espiral, semejantes a palmeras, aún parecen crecer hacia la bóveda — un testigo silencioso de los mercaderes que construyeron un imperio sobre el comercio de la seda.</p>
+          <a href="#" class="hc-cta">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            Descubrir más
+          </a>
+        </div>
+      </article>
+
+      <article class="hc hc-reverse reveal">
+        <div class="hc-img">
+          <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwerKRMCOK38JL8Zu4NEwhEoIxLWEztM0LAkPC1_x_Y3v1cDH4caK1uI4n5IKEF74v1O9ztCbZt-t8gEhyqMLzgh41bghCIcWxxjUPiEpQ_LPqumAwjIohjzU2ZcLeQYVV2yttUbCG15jSVg=s1360-w1360-h1020-rw" alt="Catedral de Valencia" />
+          <div class="hc-img-label">Catedral · Siglos XIII–XVIII</div>
+        </div>
+        <div class="hc-body">
+          <p class="hc-eyebrow">Románico · Gótico · Barroco</p>
+          <h3 class="hc-title">La Catedral de Valencia</h3>
+          <p class="hc-desc">Cada arco narra un siglo distinto. En sus capillas reposa lo que muchos creen que es el Santo Grial — un cáliz de ágata que ha sobrevivido cruzadas y siglos por igual.</p>
+          <a href="#" class="hc-cta">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            Descubrir más
+          </a>
+        </div>
+      </article>
+
+    </div>
+
+    <blockquote class="heritage-quote reveal">
+      <p>"Valencia es una ciudad que habla en piedra<br>y susurra entre el azahar."</p>
+    </blockquote>
+
+  </section>
+
+
+  <!-- ══════════════════════════════════
+       02 — MODERNITY
+       Layout: White/pale, architectural —
+       full-bleed banner + offset stat card
+       + secondary horizontal card
+  ══════════════════════════════════ -->
+  <section id="modernity" class="section sec-modernity">
+
+    <div class="mod-intro">
+      <div class="sec-label mod-label">
+        <span class="sec-number">02</span>
+        <span class="sec-tag">Modernidad</span>
+      </div>
+      <h2 class="mod-heading">El<br>Horizonte<br><em>Futurista</em></h2>
+    </div>
+
+    <div class="mod-feature reveal">
+      <div class="mod-feature-img">
+        <img src="https://images.unsplash.com/photo-1566438480900-0609be27a4be?auto=format&fit=crop&q=80&w=1400" alt="Ciudad de las Artes y las Ciencias" />
+      </div>
+      <div class="mod-feature-card">
+        <p class="mod-eyebrow">Santiago Calatrava · 1998–2009</p>
+        <h3 class="mod-feature-title">Ciudad de las Artes y las Ciencias</h3>
+        <p class="mod-feature-desc">Una columna vertebral de titanio y hormigón blanco que se extiende casi un kilómetro. El mayor acuario de Europa, un domo IMAX hemisférico y una ópera que parece haber aterrizado desde otra galaxia.</p>
+        <div class="mod-stats">
+          <div class="mod-stat"><strong>86.000 m²</strong><span>Superficie del acuario</span></div>
+          <div class="mod-stat"><strong>110 m</strong><span>Altura del Palau de les Arts</span></div>
+        </div>
+        <a href="#" class="mod-cta">Explorar el complejo →</a>
+      </div>
+    </div>
+
+    <div class="mod-secondary reveal">
+      <div class="mod-sec-img">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwepcG5_7gpwgGlSm9YnZL5oYzzyjUMefN4mvdDCo4WTB2TeLAivdUDhRYM1OEU1czcmIrLi-LD2aCaSS85Wk-tEeiW0uBrK0iMwqf_MzAoNRUjdoBZot96OQx3NTMrAWoT78Ls5B=s1360-w1360-h1020-rw" alt="Jardines del Turia" />
+      </div>
+      <div class="mod-sec-body">
+        <p class="mod-eyebrow">Río desviado · 9 km de verde</p>
+        <h3 class="mod-sec-title">Jardines del Turia</h3>
+        <p class="mod-sec-desc">En los años 70, la ciudad se negó a construir una autopista sobre el lecho seco del río. En su lugar, plantó nueve kilómetros de jardines que serpentean desde el casco antiguo hasta el mar — carriles bici, fuentes, el parque de Gulliver y teatros al aire libre que hilan el corazón de la ciudad.</p>
+        <a href="#" class="mod-cta">Recorrer la ruta →</a>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- ══════════════════════════════════
+       03 — GASTRONOMY
+       Layout: Warm terracotta editorial —
+       large hero image + overlapping text
+       block + smaller side card
+  ══════════════════════════════════ -->
+  <section id="gastronomy" class="section sec-gastronomy">
+
+    <div class="gast-intro reveal">
+      <div class="sec-label gast-label">
+        <span class="sec-number">03</span>
+        <span class="sec-tag">Gastronomía</span>
+      </div>
+      <div class="gast-intro-text">
+        <h2 class="gast-heading">El Alma<br><em>Culinaria</em></h2>
+        <p class="gast-sub">La mesa mediterránea nació aquí — o eso dice todo valenciano, y no van del todo desencaminados.</p>
+      </div>
+    </div>
+
+    <div class="gast-hero reveal">
+      <div class="gast-hero-img">
+        <img src="https://restauranteventapazo.es/wp-content/uploads/2023/06/paella-de-marisco.jpg" alt="Paella" />
+      </div>
+      <div class="gast-hero-card">
+        <p class="gc-eyebrow">La Cuna de un Plato Universal</p>
+        <h3 class="gc-title">La Auténtica Paella Valenciana</h3>
+        <p class="gc-desc">Conejo, pollo, garrofó y el tenue aroma a madera de naranjo. No es un plato turístico — es el ritual del almuerzo del domingo, cocinado al aire libre en una paella de hierro, comido despacio y en compañía.</p>
+        <div class="gc-ingredients">
+          <span>Conejo</span><span>Pollo</span><span>Garrofó</span><span>Azafrán</span><span>Leña de naranjo</span>
+        </div>
+        <a href="#" class="gc-link">Receta e historia →</a>
+      </div>
+    </div>
+
+    <div class="gast-secondary reveal">
+
+      <article class="gast-sec-card">
+        <div class="gsc-img">
+          <img src="https://media-cdn.tripadvisor.com/media/photo-s/06/55/59/ee/alboraya.jpg" alt="Horchata" />
+        </div>
+        <div class="gsc-body">
+          <p class="gc-eyebrow">El Ritual de la Chufa</p>
+          <h3 class="gsc-title">Horchata y Fartons</h3>
+          <p class="gsc-desc">Servida sobre hielo en un vaso esmerilado, la horchata es la pausa de la tarde valenciana. Terrosa, dulce e inseparable del fartón, el bollo alargado hecho para mojar.</p>
+          <a href="#" class="gc-link">Encontrar una horchatería →</a>
+        </div>
+      </article>
+
+      <div class="gast-pull-quote">
+        <svg class="gpq-mark" viewBox="0 0 60 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 45V27C0 10.5 9 3 27 0L30 6C18 8.25 13.5 13.5 12 21H22.5V45H0Z" fill="currentColor" opacity="0.2"/>
+          <path d="M33 45V27C33 10.5 42 3 60 0L63 6C51 8.25 46.5 13.5 45 21H55.5V45H33Z" fill="currentColor" opacity="0.2"/>
+        </svg>
+        <p>"Comer en Valencia es comprender todo el Mediterráneo."</p>
+        <cite>— Ferran Adrià</cite>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════
+       04 — LIFESTYLE
+       Layout: Airy, sun-bleached —
+       panoramic image + two dark/light cards
+  ══════════════════════════════════ -->
+  <section id="lifestyle" class="section sec-lifestyle">
+
+    <div class="life-intro reveal">
+      <div class="sec-label life-label">
+        <span class="sec-number">04</span>
+        <span class="sec-tag">Estilo de vida</span>
+      </div>
+      <h2 class="life-heading">Espíritu<br><em>Mediterráneo</em></h2>
+      <p class="life-sub">El sol como forma de vida. El fuego como celebración. La arena como segundo hogar.</p>
+    </div>
+
+    <div class="life-panorama reveal">
+      <img src="https://www.barcelo.com/guia-turismo/wp-content/uploads/2024/09/ok-playa-de-la-malvarrosa.jpg" alt="Playa de la Malvarrosa" />
+      <div class="life-pano-tag">Malvarrosa · 4,5 km de arena dorada</div>
+    </div>
+
+    <div class="life-cards reveal">
+
+      <article class="life-card lc-fallas">
+        <div class="lc-ghost-text" aria-hidden="true">FALLAS</div>
+        <div class="lc-content">
+          <p class="lc-eyebrow">Cada marzo · Patrimonio Inmaterial UNESCO · Desde 1738</p>
+          <h3 class="lc-title">Las Fallas</h3>
+          <p class="lc-desc">Durante cinco noches, enormes esculturas de cartón piedra — algunas de cuatro plantas — llenan las calles antes de arder en La Cremà. El aire huele a pólvora y a rosas. El estruendo es inolvidable.</p>
+          <div class="lc-tags">
+            <span>Fuego</span><span>Sátira</span><span>Pólvora</span><span>Comunidad</span>
+          </div>
+          <a href="#" class="lc-link">Guía del festival →</a>
+        </div>
+        <div class="lc-img">
+          <img src="https://blog.visitvalencia.com/hubfs/pichiavo%20macleta.jpg" alt="La Cremà de las Fallas" />
+        </div>
+      </article>
+
+      <article class="life-card lc-beach">
+        <div class="lc-img lc-img-top">
+          <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800" alt="Playa de Valencia" />
+        </div>
+        <div class="lc-content">
+          <p class="lc-eyebrow">Todo el año · A 10 minutos del centro</p>
+          <h3 class="lc-title">La Playa Urbana</h3>
+          <p class="lc-desc">Amplios paseos marítimos, bulevares flanqueados de palmeras y restaurantes de mariscos que abren al mediodía y cierran pasada la medianoche. La playa es el segundo salón de Valencia — y el mejor.</p>
+          <div class="lc-tags">
+            <span>Vela</span><span>Ciclismo</span><span>Mariscos</span><span>Atardeceres</span>
+          </div>
+          <a href="#" class="lc-link">Guía de la playa →</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════
+       STATS BAND
+  ══════════════════════════════════ -->
+  <div class="stats-band">
+    <div class="stats-inner">
+      <div class="stat-item">
+        <span class="sv">138 a.C.</span>
+        <span class="sk">Fundada por los romanos</span>
+      </div>
+      <div class="stat-sep" aria-hidden="true"></div>
+      <div class="stat-item">
+        <span class="sv">3.ª</span>
+        <span class="sk">Ciudad más grande de España</span>
+      </div>
+      <div class="stat-sep" aria-hidden="true"></div>
+      <div class="stat-item">
+        <span class="sv">15</span>
+        <span class="sk">Estrellas Michelin</span>
+      </div>
+      <div class="stat-sep" aria-hidden="true"></div>
+      <div class="stat-item">
+        <span class="sv">3,4 M</span>
+        <span class="sk">Visitantes anuales</span>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ══════════════════════════════════
+       FOOTER
+  ══════════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-mark">V</div>
+        <span>GUÍA DE VALÈNCIA</span>
+      </div>
+      <nav class="footer-nav">
+        <a href="#heritage">Patrimonio</a>
+        <a href="#modernity">Modernidad</a>
+        <a href="#gastronomy">Gastronomía</a>
+        <a href="#lifestyle">Estilo de vida</a>
+      </nav>
+      <p class="footer-copy">© 2026 Hecho con amor por Raed Brini</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
