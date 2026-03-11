@@ -1162,7 +1162,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .hamburger { display: flex; }
 
   .gast-sec-card { grid-template-columns: 1fr; }
-  .gsc-img { aspect-ratio: 16/7; }
+  .gsc-img { aspect-ratio: auto; }
   .gsc-body { padding: 1.5rem; }
 
   .footer-inner { flex-direction: column; text-align: center; }
